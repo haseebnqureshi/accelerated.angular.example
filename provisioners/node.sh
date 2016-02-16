@@ -15,12 +15,6 @@ apt-get install build-essential -y > /dev/null
 
 echo "[accelerated/provisioners/node.sh] -- Installing global npm packages"
 
-echo "[accelerated/provisioners/node.sh] -- -- Installing make ..."
-npm install make -g --loglevel=error
-
-echo "[accelerated/provisioners/node.sh] -- -- Installing node-gyp ..."
-npm install node-gyp -g --loglevel=error
-
 echo "[accelerated/provisioners/node.sh] -- -- Installing forever ..."
 npm install forever -g --loglevel=error
 
